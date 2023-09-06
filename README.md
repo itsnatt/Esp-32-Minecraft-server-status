@@ -28,7 +28,7 @@ Cara Penggunaan:
     Unggah kode yang telah disediakan ke Arduino atau ESP8266/ESP32.
     Sesuaikan konfigurasi proyek untuk mengakses server Minecraft yang diinginkan.
     untuk api url anda bisa mengambil dari sini "https://mcstatus.io/"
-    atau mengunakan https://api.mcstatus.io/v2/status/java/yourServerip/address
+    atau mengunakan https://api.mcstatus.io/v2/status/java/yourServerip:portoraddress
     
 
 Catatan:
