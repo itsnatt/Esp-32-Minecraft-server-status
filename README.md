@@ -2,7 +2,7 @@
 Monitoring Minecraft server status using esp32 and LCD display
 
 Deskripsi Proyek:
-Proyek ini adalah implementasi sederhana untuk menampilkan status server Minecraft pada LCD 16x2 menggunakan Arduino. Proyek ini memungkinkan Anda untuk melihat status server Minecraft, seperti apakah server sedang online, berapa jumlah pemain yang online, dan daftar pemain yang sedang online.
+Proyek ini adalah implementasi sederhana untuk menampilkan status server Minecraft pada LCD 16x2 menggunakan Arduino. Proyek ini memungkinkan Anda untuk melihat status server Minecraft, seperti apakah server sedang online, berapa jumlah pemain yang online, dan daftar pemain yang sedang online. data ini diambil dari endpoint api yang diberikan oleh https://mcstatus.io/
 
 Komponen Utama:
 
@@ -24,9 +24,12 @@ Cara Kerja:
 Cara Penggunaan:
 
     Sambungkan komponen yang LCD 16x2 dengan I2C dan  ESP8266/ESP32.
+    anda bisa mengikuti tutorial dari sini "https://randomnerdtutorials.com/esp32-esp8266-i2c-lcd-arduino-ide/"
     Unggah kode yang telah disediakan ke Arduino atau ESP8266/ESP32.
     Sesuaikan konfigurasi proyek untuk mengakses server Minecraft yang diinginkan.
-    Jalankan proyek, dan LCD akan menampilkan status server Minecraft secara berkelanjutan.
+    untuk api url anda bisa mengambil dari sini "https://mcstatus.io/"
+    atau mengunakan https://api.mcstatus.io/v2/status/java/yourServerip/address
+    
 
 Catatan:
 
